@@ -172,7 +172,7 @@ print("The length of the array is: ", len(secret_array))
 ```
 
 ```text
-&gt;&gt;&gt; The length of the array is: 2
+The length of the array is: 2
 ```
 
 
@@ -194,8 +194,8 @@ print("My secret array: \n", secret_array.value)
 ```
 
 ```text
-&gt;&gt;&gt; My secret array:
-&gt;&gt;&gt;  [, ]
+My secret array:
+[, ]
 ```
 
 
@@ -253,7 +253,7 @@ print("Cluster id:", cinfo.id)
 ```
 
 ```text
-&gt;&gt;&gt; Cluster id: 147f8d45-2126-4a54-9a64-8141ee55f51a
+Cluster id: 147f8d45-2126-4a54-9a64-8141ee55f51a
 ```
 
 
@@ -273,7 +273,7 @@ print("Statistical sec parameter kappa:", cinfo.kappa)
 ```
 
 ```text
-&gt;&gt;&gt; Statistical sec parameter kappa: 40
+Statistical sec parameter kappa: 40
 ```
 
 
@@ -293,7 +293,7 @@ print("Cluster parties' ids:", cinfo.parties)
 ```
 
 ```text
-&gt;&gt;&gt; Parties: {'12D3KooWJtRXjmV1HctQgvLUcrdxJ7cXwCHiL6PCheikN2rTJ2ZH',
+Parties: {'12D3KooWJtRXjmV1HctQgvLUcrdxJ7cXwCHiL6PCheikN2rTJ2ZH',
               '12D3KooWHSveXS4DdXpCQyDDsp9D1x7fiTRnm1fsH9yJRpR6y4FM',
               '12D3KooWLV6HzUXpt6Tt5HUM5Fo3mpjvwsv9n4ADkJ962ArAZCvX'}
 ```
@@ -318,7 +318,7 @@ print("Polynomial degree:", cinfo.polynomial_degree)
 ```
 
 ```text
-&gt;&gt;&gt; Polynomial degree: 1
+Polynomial degree: 1
 ```
 
 
@@ -338,7 +338,7 @@ print("Prime type:", cinfo.prime)
 ```
 
 ```text
-&gt;&gt;&gt; Prime: U256SafePrime
+Prime: U256SafePrime
 ```
 
 
@@ -654,7 +654,7 @@ print("Are the public integers the same? ", pub_integer_1 == pub_integer_2)
 ```
 
 ```text
-&gt;&gt;&gt; Are the public integers the same?  False
+Are the public integers the same?  False
 ```
 
 
@@ -679,8 +679,8 @@ print("Public integer is now: ", pub_integer.value)
 ```
 
 ```text
-&gt;&gt;&gt; Public integer is:  1
-&gt;&gt;&gt; Public integer is now:  2
+Public integer is:  1
+Public integer is now:  2
 ```
 
 
@@ -890,8 +890,8 @@ print("Values:\n", values.dict())
 ```
 
 ```text
-&gt;&gt;&gt; Values:
-&gt;&gt;&gt;  {'sec_array': , 'sec_uinteger': , 'sec_integer': }
+Values:
+{'sec_array': , 'sec_uinteger': , 'sec_integer': }
 ```
 
 
@@ -1301,8 +1301,8 @@ print("Value: ", result[1])
 ```
 
 ```text
-&gt;&gt;&gt; Value ID: 2424a65c-d20c-4635-b864-06c064188dd4
-&gt;&gt;&gt; Value: 42
+Value ID: 2424a65c-d20c-4635-b864-06c064188dd4
+Value: 42
 ```
 
 
@@ -1430,8 +1430,8 @@ print("Updated stored secret id: ", updated_store_id)
 ```
 
 ```text
-&gt;&gt;&gt; Stored secret id: 3c504263-fd3f-40b8-8a1d-9056b7846637
-&gt;&gt;&gt; Updated stored secret id: ccdb8036-2635-40d9-9144-2cc89551fce9
+Stored secret id: 3c504263-fd3f-40b8-8a1d-9056b7846637
+Updated stored secret id: ccdb8036-2635-40d9-9144-2cc89551fce9
 ```
 
 
@@ -1846,7 +1846,7 @@ print("Default user is always allowed: ", delete_allowed)
 ```
 
 ```text
-&gt;&gt;&gt; Default user is always allowed: True
+Default user is always allowed: True
 ```
 
 
@@ -1869,7 +1869,7 @@ print("Default user is always allowed: ", retrieve_allowed)
 ```
 
 ```text
-&gt;&gt;&gt; Default user is always allowed: True
+Default user is always allowed: True
 ```
 
 
@@ -1907,7 +1907,7 @@ print("Default user is always allowed: ", update_allowed)
 ```
 
 ```text
-&gt;&gt;&gt; Default user is always allowed: True
+Default user is always allowed: True
 ```
 
 
@@ -2130,7 +2130,7 @@ print("Are these blobs the same?", gm_blob == ready_blob)
 ```
 
 ```text
-&gt;&gt;&gt; Are these blobs the same?  False
+Are these blobs the same?  False
 ```
 
 
@@ -2157,8 +2157,8 @@ print("Blob is now: ", blob.value)
 ```
 
 ```text
-&gt;&gt;&gt; Blob is:  bytearray(b'gm, builder!')
-&gt;&gt;&gt; Blob is now:  bytearray(b'ready to build!')
+Blob is:  bytearray(b'gm, builder!')
+Blob is now:  bytearray(b'ready to build!')
 ```
 
 
@@ -2189,7 +2189,7 @@ print("Are the secret integers the same? ", sec_integer_1 == sec_integer_2)
 ```
 
 ```text
-&gt;&gt;&gt; Are the secret integers the same?  False
+Are the secret integers the same?  False
 ```
 
 :::warning
@@ -2217,8 +2217,8 @@ print("Secret integer is now: ", sec_integer.value)
 ```
 
 ```text
-&gt;&gt;&gt; Secret integer is:  1
-&gt;&gt;&gt; Secret integer is now:  2
+Secret integer is:  1
+Secret integer is now:  2
 ```
 
 
@@ -2252,7 +2252,7 @@ print("Are the secret unsigned integers the same? ", sec_uinteger_1 == sec_uinte
 ```
 
 ```text
-&gt;&gt;&gt; Are the secret unsigned integers the same?  False
+Are the secret unsigned integers the same?  False
 ```
 
 :::warning
@@ -2280,8 +2280,8 @@ print("Secret unsigned integer is now: ", sec_uinteger.value)
 ```
 
 ```text
-&gt;&gt;&gt; Secret unsigned integer is:  1
-&gt;&gt;&gt; Secret unsigned integer is now:  2
+Secret unsigned integer is:  1
+Secret unsigned integer is now:  2
 ```
 
 
@@ -2332,7 +2332,7 @@ print("Are the public unsigned integers the same? ", pub_uinteger_1 == pub_uinte
 ```
 
 ```text
-&gt;&gt;&gt; Are the public unsigned integers the same?  False
+Are the public unsigned integers the same?  False
 ```
 
 
@@ -2357,8 +2357,8 @@ print("Public unsigned integer is now: ", pub_uinteger.value)
 ```
 
 ```text
-&gt;&gt;&gt; Public unsigned integer is:  1
-&gt;&gt;&gt; Public unsigned integer is now:  2
+Public unsigned integer is:  1
+Public unsigned integer is now:  2
 ```
 
 
